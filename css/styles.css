@@ -1,0 +1,67 @@
+/*
+Colors used
+
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Purple): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
+
+ :root{
+    --text-color: #2b2b2b;
+    --prim-color: #357b70;
+    --sec-color: #456;
+    --ther-color: #FF5733;
+ }
+
+ body {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-color);
+ }
+
+ header {
+    font-size: 1 em;
+    font-weight: 100;
+ }
+ h1 {
+    line-height: 1.2 em;
+    font-size: 1.2 em;
+ }
+ul{
+    list-style: none;
+}
+ a {
+    color: var(--prim-color);
+    text-decoration: underline;
+  }
+  
+  a:hover {
+
+    text-decoration: none;
+    color: var(--ther-color);
+  }
+
+  a:visited {
+
+    color: var(--sec-color);
+  }
+  
+  a:active {
+
+    color: var(--ther-color);
+  }
+
+  button {
+    border: none;
+    font-family: inherit;
+    background-color: #117ebd;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  }
+
+  button:hover, button:focus {
+    cursor: pointer;
+    opacity: 0.8;
+  }
